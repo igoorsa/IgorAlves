@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Igor Silva Alves</title>
+    <link rel="shortcut icon" type="image/jfif" href="img/title-icon.jfif">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+</head>
+<body>
+
+    <!-- navBar -->
+    <header class="container-fluid bg-dark position-fixed py-3" style="z-index: 1;">
+        <div class="row">
+            <div class=" text-white navBar text-center">
+                <nav >
+                    <a href="#me">Sobre Mim</a>
+                    <a href="#habi">Habilidades</a>
+                    <a href="#pro">Projetos</a>
+                    <a href="#cont">Contato</a>      
+                </nav>
+            </div>
+        </div>             
+    </header>
+
+    
+    <!-- img Header -->
+
+    <div class="bgInitial mb-5">
+        <div class="container mx-5">
+            <div class="col-4"></div>
+            <div class="col text-header">
+                <p class="title ">Olá, Sou </p>
+                <div id="nameAnimate">
+                    <p id="name" class="name">Igor Silva Alves</p>
+                </div>
+                    <p class="title">Desenvolvedor Front-End</p>
+                <div class="container">
+                    <a href="https://github.com/pRnny" class="link-git"><button class="btn btn-dark but">GitHub</button></a>
+                    <a href="https://www.linkedin.com/in/igor-silva-alves-390700179/" class="link-din"><button class="btn btn-dark ms-4 but">LinkedIn</button> </a>
+                        
+                </div>
+            </div>
+            <div class="col-4"></div>
+        </div>
+    </div>
+
+    <!-- About Me -->
+
+    <div class="container mb-5" id="me">
+        <div class="row">
+           <div class="col-12 h3 mt-5 text-center">
+                SOBRE MIM
+                <hr>
+           </div>
+           <div class="col-12 text-center mb-5">
+                <div class="bg-dark rounded-3"> 
+                    <div class="d-flex ">
+                        <div class="rounded-circle">
+                            <img src="img/PERFIL PORTIFOLIO-FUNDO INVI.png" alt="Cartoon da minha foto" class="rounded-circle" width="150px">
+                        </div>
+                        <div class=" text-me text-white pt-4">
+                            Olá me chamo Igor, tenho 24 anos, sou fromado em engenharia mecânica, e atualmente estou fazendo uma transição de carreira, onde estou cursando no SENAC um tecnólogo de análise e desenvolvimento de sistemas noqual estou no primeiro semestre.
+                        </div>
+                    </div>
+                </div>
+           </div>
+        </div>
+    </div>
+
+    
+    <!-- skills -->
+    <div class="pt-5 ">
+        <div class="container-fluid" id="habi">
+            <div class="row">
+            <div class="col-12 h3 mt-5 text-center">
+                    HABILIDADES
+                    <hr class="text-center">
+            </div>
+            <div class="pt-2 owl-carousel owl-theme" style="z-index: 0;">
+                    <p id="html" onclick="html()" ><img src="img/HTML5.png" alt="html icon" width="90px"></p> 
+                    <p id="css" onclick="css()" ><img src="img/Css-ico.png" alt="css icon" width="90px"></p>
+                    <p id="js" onclick="js()" ><img src="img/js-icon.png" alt="js icon" width="98px"></p> 
+                    <p id="bootstrap" onclick="bootstrap()"><img src="img/bootstrap-icon.png" alt="js icon" width="120px"></p> 
+                    <p id="jquery" onclick="jquery()"><img src="img/jquery-icon.png" alt="js icon" width="95px"></p> 
+                    <p id="git" onclick="git()"><img src="img/Git-Icon-.png" alt="js icon" width="90px"></p> 
+                    <p id="php" onclick="php()"><img src="img/php.icon.png" alt="js icon" width="90px"></p>
+                    <p id="sql" onclick="sql()"><img src="img/sql-icon.jpg" alt="js icon" width="90px"></p> 
+                    <p id="vue" onclick="vue()"><img src="img/vue-icon.png" alt="js icon" width="90px"></p>
+                    <p id="ajax" onclick="ajax()"><img src="img/ajax-icon.jpg" alt="js icon" width="90px"></p>
+                </div>
+            </div>
+        </div>
+        <!-- Level skills -->
+        <div class="container descricao-habilidades mb-5 pb-5 pt-5 text-center">
+            <div class="inicio-habilidade">
+                <span class="atencao">ATENÇÃO</span> clique em alguma habilidade para saber o nivel de conhecimento  
+            </div>
+            <div class="habilidade html">
+                <p><span>Nome:</span> HTML5</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário </p>
+            </div>
+            <div class="habilidade css">
+                <p><span>Nome:</span> CSS3</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário</p>
+            </div>
+            <div class="habilidade js">
+                <p><span>Nome:</span> JavaScript</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário</p>
+            </div>
+            <div class="habilidade bootstrap">
+                <p><span>Nome:</span> BootStrap</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário</p>
+            </div>
+            <div class="habilidade jquery">
+                <p><span>Nome:</span> jQuery</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário</p>
+            </div>
+            <div class="habilidade git">
+                <p><span>Nome:</span> Git</p>
+                <p><span>Nivel do conhecimento:</span> Básico</p>
+            </div>
+            <div class="habilidade php">
+                <p><span>Nome:</span> PHP</p>
+                <p><span>Nivel do conhecimento:</span> Básico</p>
+            </div>
+            <div class="habilidade sql">
+                <p><span>Nome:</span> SQL</p>
+                <p><span>Nivel do conhecimento:</span> Intermediário</p>
+            </div>
+            <div class="habilidade vue">
+                <p><span>Nome:</span> Vue</p>
+                <p><span>Nivel do conhecimento:</span> Básico</p>
+            </div>
+            <div class="habilidade ajax">
+                <p><span>Nome:</span> Ajax
+                <p><span>Nivel do conhecimento:</span> Básico</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects -->
+    <div class="container my-5 pt-5" id="pro">
+        <div class="text-center">
+            <div>
+                <h3>Projetos</h3>
+                <hr class="text-center">
+            </div>
+        </div>
+        <!-- imgs -->
+        <div class="row justify-content-center">
+            <div class="col-4 mx-5  my-2 img-breve">     
+                <div class="text-breve"> <span> EM BREVE </span></div>
+            </div>
+            <div class="col-4 mx-5 my-2 img-breve">     
+                <div class="text-breve"> <span> EM BREVE </span></div>
+            </div>
+            <div class=" col-4 mx-5 my-2 img-breve">     
+                <div class="text-breve"> <span> EM BREVE </span></div>
+            </div>
+        </div> 
+    </div>
+
+
+    <!-- Contact -->
+    <div id="contact-us" class="container pt-5" id="cont">
+
+        <div class="container">
+            <div class="text-center mt-5">
+            <h3>Contato</h3>
+            <hr></hr>
+            </div>
+            
+
+            <div class="row">
+                <div class="col-3"></div>
+                <form action="https://postmail.invotes.com/send" method="post" id="email_form" class="col-6">
+
+                    <input type="text" name="subject" placeholder="Nome" class="form-control"/>
+                    <input type="text" name="extra_email" placeholder="Email" class="form-control mt-3"/>
+                    <input type="text" name="extra_phone_number" placeholder="Número de Contato" class="form-control mt-3"/>
+                    <textarea name="text" placeholder="Mensagem" class="form-control mt-3"></textarea>
+            
+                    <input type="hidden" name="access_token" value="vociovdfy7dspcm4yfds2fs7" />
+                    
+                    <input type="hidden" name="success_url" value=".?message=Email+Successfully+Sent%21&isError=0" />
+                    <input type="hidden" name="error_url" value=".?message=Email+could+not+be+sent.&isError=1" />
+                
+                
+                    <input id="submit_form" type="submit" value="Send" class="form-control btn btn-info mt-3 mb-5"/>
+                </form>
+                <div class="col-3"></div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <footer class="container-fluid bg-dark" style="height: 200px;">
+
+            <div class="row">
+
+                <div class="col-2"></div>
+                <div class="col-4 text-white ">
+                    <h4 class="footer-section-title text-white">Contato</h4>
+                    <p class="text-me">
+                        São Paulo/SP<br>
+                        T. 94016-1928<br>
+                        igor8.alves@hotmail.com
+                    </p>
+                </div>
+                <div class="col-6 text-center text-white">
+                    <h4 class="footer-section-title">Social</h4>
+                    <a href="https://github.com/pRnny"><img src="img/github-circle-mascot-git-icon-6.png" alt="github-icon" style="width: 50px"></a>
+                    <a href="https://www.linkedin.com/in/igor-silva-alves-390700179/"><img src="img/linkedin.jpg" alt="linkedin-icon" style="width: 50px"></a>
+                </div>
+                
+                <hr class= "col-12 container" style="width: 90%; height:1px;"></hr>
+                
+                <div class="copyright col-12 text-white text-center">
+                
+                    <span id="current_year"></span> &copy; Todos os direitos reservados
+                
+                </div>
+            </div>
+        
+    </footer>
+
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/carousel.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
